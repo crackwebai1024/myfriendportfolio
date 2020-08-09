@@ -34,6 +34,9 @@ function App() {
         </div>
         <div className="contentWrapper">
           <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
             <Route path="/home">
               <Home />
             </Route>
