@@ -1,0 +1,88 @@
+/* Home CSS */
+.home-info {
+  padding-top: 200px;
+  padding-left:  10%;
+}
+.home-right {
+  padding-top: 200px;
+}
+.home-info h1{
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  font-size: 70px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  margin: 30px 0 50px;
+  text-transform: capitalize;
+}
+
+/* About CSS */
+.about-image {
+  width: 400px;
+}
+.container{
+  padding-top: 0px;
+}
+.about-description .span{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background: #2d2d2f;
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+  color: #61dafb;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.about-description .span label {
+  position: relative;
+  left: 50px;
+  top: -35px;
+  font-size: 18px;
+  font-weight: 550;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row {
+  margin-top: 100px;
+}
+.education {
+  position: relative;
+  margin-top: 50px;
+  padding: 65px 25px 35px;
+  -webkit-box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+  -mz-box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+}
+.education-icon {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 62px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  background: #2d2d2f;
+  color: #61dafb;
+  font-size: 23px;
+  box-shadow: 3px 3px 3px #212225, -3px -3px 3px #3e3d3d;
+}
+.education-icon i{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 62px;
+  height: 62px;
+  line-height: 62px;
+  text-align: center;
+  border-radius: 50%;
+  display: block;
+  background: #2d2d2f;
+  color: #61dafb;
+  font-size: 23px;
+  box-shadow: inset 3px 3px 3px #212225, inset -3px -3px 3px #3e3d3d;
+}
